@@ -8,7 +8,7 @@
 ## Template List
 Template name           | Type       | Status        |
 :-----------------------|:----------:|--------------:|
-Abstract Factory        | Creational | *Not started* |
+Abstract Factory        | Creational | *Finished*    |
 Adapter                 | Structural | *Not started* |
 Bridge                  | Structural | *Not started* |
 Builder                 | Creational | *Not started* |
