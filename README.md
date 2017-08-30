@@ -6,12 +6,12 @@
 3. Structural
 
 ## Template List
-Template name           | Type       | Status        |
+Template name           |    Type    |        Status |
 :-----------------------|:----------:|--------------:|
-Abstract Factory        | Creational | *Finished*    |
+Abstract Factory        | Creational |    *Finished* |
 Adapter                 | Structural | *Not started* |
 Bridge                  | Structural | *Not started* |
-Builder                 | Creational | *Not started* |
+Builder                 | Creational |    *Finished* |
 Chain of Responsibility	| Behavioral | *Not started* |
 Command	                | Behavioral | *Not started* |
 Composite               | Structural | *Not started* |
@@ -35,7 +35,7 @@ Visitor	                | Behavioral | *Not started* |
 ## Creating a new project
 To start a new project with Cargo, use
 ```cargo
-cargo new template-new --bin --vcs none
+cargo new template_name --bin --vcs none
 ```
 
 ## Useful links
