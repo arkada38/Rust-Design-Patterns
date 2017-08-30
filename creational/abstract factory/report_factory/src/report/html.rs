@@ -1,3 +1,4 @@
+use std::fmt;
 use report::Report;
 
 pub struct HtmlReport {
@@ -21,9 +22,10 @@ impl Report for HtmlReport {
     fn set_content(&mut self, content: &'static str) {
         self.content = content;
     }
+}
 
-    fn print(&self) {
-        println!("<h1>{}</h1>", self.header);
-        println!("<p>{}</p>", self.content);
+impl fmt::Display for HtmlReport {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        write!(f, "<h1>{}</h1>\n<p>{}</p>\n", self.header, self.content)
     }
 }

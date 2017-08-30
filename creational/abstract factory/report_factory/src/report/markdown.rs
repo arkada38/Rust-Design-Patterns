@@ -1,3 +1,4 @@
+use std::fmt;
 use report::Report;
 
 pub struct MarkdownReport {
@@ -21,9 +22,10 @@ impl Report for MarkdownReport {
     fn set_content(&mut self, content: &'static str) {
         self.content = content;
     }
+}
 
-    fn print(&self) {
-        println!("# {}  ", self.header);
-        println!("{}  ", self.content);
+impl fmt::Display for MarkdownReport {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        write!(f, "# {}  \n{}  \n", self.header, self.content)
     }
 }
