@@ -1,8 +1,8 @@
-extern crate report_builder;
+extern crate report;
 
-use report_builder::Report;
-use report_builder::html_report_builder::HtmlReportBuilder;
-use report_builder::markdown_report_builder::MarkdownReportBuilder;
+use report::Report;
+use report::html_report_builder::HtmlReportBuilder;
+use report::markdown_report_builder::MarkdownReportBuilder;
 
 fn main() {
     let html_report: Report = HtmlReportBuilder::new()
@@ -13,7 +13,6 @@ fn main() {
         .finish();
 
     println!("{}", html_report);
-
 
     let markdown_report: Report = MarkdownReportBuilder::new()
         .with_header("First header")
