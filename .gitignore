@@ -2,11 +2,5 @@
 **/*.rs.bk
 **/*.lock
 
-/creational/abstract factory/report/.idea/
-/creational/abstract factory/report/target/
-
-/creational/builder/report/.idea/
-/creational/builder/report/target/
-
-/creational/builder/config/.idea/
-/creational/builder/config/target/
+.idea/
+target/
