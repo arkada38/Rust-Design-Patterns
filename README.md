@@ -35,7 +35,7 @@ Visitor	                | Behavioral | *Not started* |
 ## Creating a new project
 To start a new project with Cargo, use
 ```cargo
-cargo new template_name --bin --vcs none
+cargo new project_name --bin --vcs none
 ```
 
 ## Useful links
