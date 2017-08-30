@@ -1,7 +1,7 @@
-extern crate report_factory;
+extern crate report;
 
-use report_factory::report::print_report;
-use report_factory::report_factory::{MarkdownReportFactory, HtmlReportFactory, ReportFactory};
+use report::report::print_report;
+use report::report_factory::{MarkdownReportFactory, HtmlReportFactory, ReportFactory};
 
 fn main() {
     let markdown_factory = MarkdownReportFactory;
