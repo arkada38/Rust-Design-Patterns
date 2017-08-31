@@ -3,7 +3,7 @@
 ## Types of Patterns
 
 1. Behavioral
-1. Creational
+1. [Creational](creational)
 1. Structural
 
 ## Template List
@@ -19,7 +19,7 @@ Command                                                     | Behavioral | *Not 
 Composite                                                   | Structural | *Not started* |
 Decorator                                                   | Structural | *Not started* |
 Facade                                                      | Structural | *Not started* |
-Factory Method                                              | Creational | *Not started* |
+[Factory Method](creational/factory%20method)               | Creational |    *Finished* |
 Flyweight                                                   | Structural | *Not started* |
 Interpreter                                                 | Behavioral | *Not started* |
 Iterator                                                    | Behavioral | *Not started* |
