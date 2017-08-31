@@ -23,7 +23,7 @@ impl Toy for Doll {
 
 impl Toy for Robot {
     fn sing(&self) {
-        println!("I'm a robot...");
+        println!("I am a robot...");
     }
 
     fn say_name(&self) {

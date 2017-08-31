@@ -42,7 +42,7 @@ impl Toy for Doll {
 
 impl Toy for Robot {
     fn sing(&self) {
-        println!("I'm a robot...");
+        println!("I am a robot...");
     }
 
     fn say_name(&self) {
@@ -54,8 +54,6 @@ impl Toy for Robot {
 ### Module toy_factory
 
 ```rust
-use toy::{ Doll, Robot };
-
 pub trait ToyFactory<T> {
     fn create(&self, String) -> T;
 }
@@ -91,4 +89,16 @@ fn play<T: Toy>(toy: T) {
     toy.sing();
     toy.say_name();
 }
+```
+
+### output
+
+```bash
+# For Doll
+Apple round, apple red...
+My name is Alena
+
+# For Robot
+I am a robot...
+My name is Max
 ```

@@ -16,3 +16,7 @@ For instance, take this set of classes: `Transport` + `Engine` + `Controls`. The
 
 1. `Car` + `CombustionEngine` + `SteeringWheel`
 1. `Plane` + `JetEngine` + `Yoke`
+
+## Implementation
+
+- [Launch](launch)
