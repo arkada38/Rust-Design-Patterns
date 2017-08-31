@@ -14,13 +14,13 @@ impl MarkdownReportBuilder {
     }
 
     pub fn with_header(mut self, header: &'static str) -> MarkdownReportBuilder {
-        self.content.push_str(&format!("# {}  \n", header));
+        self.content.push_str(&format!("# {}\n\n", header));
         self.items += 1;
         self
     }
 
     pub fn with_paragraph(mut self, paragraph: &'static str) -> MarkdownReportBuilder {
-        self.content.push_str(&format!("{}  \n", paragraph));
+        self.content.push_str(&format!("{}\n\n", paragraph));
         self.items += 1;
         self
     }

@@ -1,11 +1,13 @@
 # Design patterns via Rust
 
 ## Types of Patterns
+
 1. Behavioral
-2. Creational
-3. Structural
+1. Creational
+1. Structural
 
 ## Template List
+
 Template name                                               |    Type    |        Status |
 :-----------------------------------------------------------|:----------:|--------------:|
 [Abstract Factory](creational/abstract%20factory)           | Creational |    *Finished* |
@@ -33,12 +35,16 @@ Template Method                                             | Behavioral | *Not 
 Visitor                                                     | Behavioral | *Not started* |
 
 ## Creating a new project
+
 To start a new project with Cargo, use
+
 ```cargo
 cargo new project_name --bin --vcs none
 ```
 
 ## Useful links
+
+* [The Catalog of Design Patterns](https://refactoring.guru/design-patterns/catalog)
 * [Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns)
 * [Design patterns card](http://www.mcdonaldland.info/files/designpatterns/designpatternscard.pdf)
 * [Шпаргалка по шаблонам проектирования](https://habrahabr.ru/post/210288/)

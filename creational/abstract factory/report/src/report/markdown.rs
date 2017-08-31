@@ -26,6 +26,6 @@ impl Report for MarkdownReport {
 
 impl fmt::Display for MarkdownReport {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
-        write!(f, "# {}  \n{}  \n", self.header, self.content)
+        write!(f, "# {}\n\n{}\n", self.header, self.content)
     }
 }
