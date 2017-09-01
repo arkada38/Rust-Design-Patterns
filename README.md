@@ -38,7 +38,7 @@ Visitor                                                     | Behavioral | *Not 
 
 To start a new project with Cargo, use
 
-```cargo
+```bash
 cargo new project_name --bin --vcs none
 ```
 

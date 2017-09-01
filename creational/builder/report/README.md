@@ -1,9 +1,23 @@
-extern crate report;
+# Report
 
-use report::report_builder::ReportBuilder;
-use report::report_builder::html_report_builder::HtmlReportBuilder;
-use report::report_builder::markdown_report_builder::MarkdownReportBuilder;
+Sample project with *Builder*
 
+## Structure
+
+- Report
+  - content
+  - items
+  - format
+
+- ReportBuilder
+  - HtmlReportBuilder
+  - MarkdownReportBuilder
+
+## Usage
+
+### main
+
+```rust
 fn main() {
     let html_report = HtmlReportBuilder::new()
         .with_header("Solar Deities : Hindu Mythological Story")
@@ -29,3 +43,35 @@ fn main() {
 
     println!("{}", markdown_report);
 }
+```
+
+### Output
+
+For HtmlReportBuilder
+
+```html
+<h1>Solar Deities : Hindu Mythological Story</h1>
+<p>Let us enjoy reading this Hindu Mythological Story of Solar Deities.</p>
+<p>Ravana once went to challenge Surya, the Sun-God, to a fight. When he reached the Solar Region he saw that the sun was about to rise and sent an envoy to inform Surya of his arrival and the reason for his coming.</p>
+
+Items: 3
+Format: Html
+```
+
+For MarkdownReportBuilder
+
+```markdown
+# Why Snakes Have Forked Tongues
+
+Garuda brought the nectar after overcoming numerous obstacles, battling even the gods in the process.
+
+The nagas were delighted when he placed the pot containing the nectar before them. They let Vinata go and then they went to wash themselves before partaking of the ambrosia.
+
+# Second header
+
+Third paragraph
+
+
+Items: 5
+Format: Markdown
+```

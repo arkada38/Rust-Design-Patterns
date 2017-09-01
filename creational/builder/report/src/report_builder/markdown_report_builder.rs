@@ -1,4 +1,5 @@
-use super::Report;
+use report::Report;
+use report_builder::ReportBuilder;
 
 pub struct MarkdownReportBuilder {
     content: String,
@@ -12,20 +13,22 @@ impl MarkdownReportBuilder {
             items: 0
         }
     }
+}
 
-    pub fn with_header(mut self, header: &'static str) -> MarkdownReportBuilder {
+impl ReportBuilder<MarkdownReportBuilder> for MarkdownReportBuilder {
+    fn with_header(mut self, header: &'static str) -> MarkdownReportBuilder {
         self.content.push_str(&format!("# {}\n\n", header));
         self.items += 1;
         self
     }
 
-    pub fn with_paragraph(mut self, paragraph: &'static str) -> MarkdownReportBuilder {
+    fn with_paragraph(mut self, paragraph: &'static str) -> MarkdownReportBuilder {
         self.content.push_str(&format!("{}\n\n", paragraph));
         self.items += 1;
         self
     }
 
-    pub fn finish(self) -> Report {
+    fn finish(self) -> Report {
         Report {
             content: self.content,
             items: self.items,

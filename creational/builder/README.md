@@ -17,3 +17,8 @@ There are might be several variants of coffee recipes:
 1. `coffee` + `milk` + `cocoa` + `sugar`
 1. `coffee` + `sugar`
 1. `coffee` + `sugar` + `sugar` + `milk`
+
+## Implementation
+
+- [Report](report)
+- [Config](config)
