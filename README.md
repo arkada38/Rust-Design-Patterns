@@ -25,7 +25,7 @@ Interpreter                                                 | Behavioral | *Not 
 Iterator                                                    | Behavioral | *Not started* |
 Mediator                                                    | Behavioral | *Not started* |
 Memento                                                     | Behavioral | *Not started* |
-Prototype                                                   | Creational | *Not started* |
+[Prototype](creational/prototype)                           | Creational | *Not started* |
 Proxy                                                       | Structural | *Not started* |
 Observer                                                    | Behavioral | *Not started* |
 Singleton                                                   | Creational | *Not started* |
