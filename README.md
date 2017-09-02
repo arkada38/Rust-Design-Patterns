@@ -4,7 +4,7 @@
 
 1. Behavioral
 1. [Creational](creational)
-1. Structural
+1. [Structural](structural)
 
 ## Template List
 
@@ -16,7 +16,7 @@ Bridge                                                      | Structural | *Not 
 [Builder](creational/builder)                               | Creational |    *Finished* |
 Chain of Responsibility                                     | Behavioral | *Not started* |
 Command                                                     | Behavioral | *Not started* |
-Composite                                                   | Structural | *Not started* |
+[Composite](structural/composite)                           | Structural |    *Finished* |
 Decorator                                                   | Structural | *Not started* |
 Facade                                                      | Structural | *Not started* |
 [Factory Method](creational/factory%20method)               | Creational |    *Finished* |
@@ -25,7 +25,7 @@ Interpreter                                                 | Behavioral | *Not 
 Iterator                                                    | Behavioral | *Not started* |
 Mediator                                                    | Behavioral | *Not started* |
 Memento                                                     | Behavioral | *Not started* |
-[Prototype](creational/prototype)                           | Creational | *Not started* |
+[Prototype](creational/prototype)                           | Creational |    *Finished* |
 Proxy                                                       | Structural | *Not started* |
 Observer                                                    | Behavioral | *Not started* |
 Singleton                                                   | Creational | *Not started* |

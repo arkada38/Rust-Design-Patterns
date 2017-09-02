@@ -1,0 +1,6 @@
+[package]
+name = "roman_army"
+version = "0.1.0"
+authors = ["Arkadiy <arkada38@outlook.com>"]
+
+[dependencies]
