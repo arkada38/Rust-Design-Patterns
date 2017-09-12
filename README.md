@@ -17,7 +17,7 @@ Bridge                                                      | Structural | *Not 
 Chain of Responsibility                                     | Behavioral | *Not started* |
 Command                                                     | Behavioral | *Not started* |
 [Composite](structural/composite)                           | Structural |    *Finished* |
-Decorator                                                   | Structural | *Not started* |
+[Decorator](structural/decorator)                           | Structural |    *Finished* |
 Facade                                                      | Structural | *Not started* |
 [Factory Method](creational/factory%20method)               | Creational |    *Finished* |
 Flyweight                                                   | Structural | *Not started* |
@@ -45,7 +45,7 @@ cargo new project_name --bin --vcs none
 ## Useful links
 
 * [The Catalog of Design Patterns](https://refactoring.guru/design-patterns/catalog)
-* [Design Patterns](https://en.wikipedia.org/wiki/Design_Patterns)
+* [Design Patterns on Wiki](https://en.wikipedia.org/wiki/Design_Patterns)
 * [Design patterns card](http://www.mcdonaldland.info/files/designpatterns/designpatternscard.pdf)
 * [Шпаргалка по шаблонам проектирования](https://habrahabr.ru/post/210288/)
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
