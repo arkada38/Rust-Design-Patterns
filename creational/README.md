@@ -5,5 +5,5 @@ Responsible for efficient object creation mechanisms, which increase the flexibi
 1. [Abstract Factory](abstract%20factory)
 1. [Builder](builder)
 1. [Factory Method](factory%20method)
-1. [Prototype](creational/prototype)
-1. [Singleton](creational/singleton)
+1. [Prototype](prototype)
+1. [Singleton](singleton)

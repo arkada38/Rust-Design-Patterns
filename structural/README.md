@@ -4,7 +4,7 @@ Responsible for building simple and efficient class hierarchies and relations be
 
 1. Adapter
 1. Bridge
-1. [Composite](structural/composite)
+1. [Composite](composite)
 1. Decorator
 1. Facade
 1. Flyweight
