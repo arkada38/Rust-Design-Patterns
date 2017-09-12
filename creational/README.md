@@ -6,4 +6,4 @@ Responsible for efficient object creation mechanisms, which increase the flexibi
 1. [Builder](builder)
 1. [Factory Method](factory%20method)
 1. [Prototype](creational/prototype)
-1. Singleton
+1. [Singleton](creational/singleton)

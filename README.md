@@ -28,7 +28,7 @@ Memento                                                     | Behavioral | *Not 
 [Prototype](creational/prototype)                           | Creational |    *Finished* |
 Proxy                                                       | Structural | *Not started* |
 Observer                                                    | Behavioral | *Not started* |
-Singleton                                                   | Creational | *Not started* |
+[Singleton](creational/singleton)                           | Creational |    *Finished* |
 State                                                       | Behavioral | *Not started* |
 Strategy                                                    | Behavioral | *Not started* |
 Template Method                                             | Behavioral | *Not started* |
