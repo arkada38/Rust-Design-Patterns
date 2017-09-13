@@ -11,7 +11,7 @@
 Template name                                               |    Type    |        Status |
 :-----------------------------------------------------------|:----------:|--------------:|
 [Abstract Factory](creational/abstract%20factory)           | Creational |    *Finished* |
-Adapter                                                     | Structural | *Not started* |
+[Adapter](structural/adapter)                               | Structural |    *Finished* |
 Bridge                                                      | Structural | *Not started* |
 [Builder](creational/builder)                               | Creational |    *Finished* |
 Chain of Responsibility                                     | Behavioral | *Not started* |

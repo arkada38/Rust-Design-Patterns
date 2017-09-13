@@ -2,7 +2,7 @@
 
 Responsible for building simple and efficient class hierarchies and relations between different classes.
 
-1. Adapter
+1. [Adapter](adapter)
 1. Bridge
 1. [Composite](composite)
 1. [Decorator](decorator)
