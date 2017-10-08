@@ -1,7 +1,7 @@
 use super::delivery::{ Delivery };
 
 pub trait Transport {
-    fn download(&self);
+    fn load(&self);
     fn set_delivery(&mut self, delivery: Box<Delivery>);
     fn carry(&self);
     fn unload(&self);
@@ -18,8 +18,8 @@ impl Plane {
 }
 
 impl Transport for Plane {
-    fn download(&self) {
-        println!("Downloading on the plane... Done!");
+    fn load(&self) {
+        println!("Loading on the plane... Done!");
     }
 
     fn set_delivery(&mut self, delivery: Box<Delivery>) {
@@ -47,8 +47,8 @@ impl Train {
 }
 
 impl Transport for Train{
-    fn download(&self) {
-        println!("Downloading on the train... Done!");
+    fn load(&self) {
+        println!("Loading on the train... Done!");
     }
 
     fn set_delivery(&mut self, delivery: Box<Delivery>) {

@@ -5,22 +5,22 @@ use transportation::transport::{ Transport, Plane, Train };
 
 fn main() {
     let mut plane = Plane::new(Box::new(Express{}));
-    plane.download();
+    plane.load();
     plane.carry();
     plane.unload();
 
     plane.set_delivery(Box::new(Normal{}));
-    plane.download();
+    plane.load();
     plane.carry();
     plane.unload();
 
     let mut train = Train::new(Box::new(Express{}));
-    train.download();
+    train.load();
     train.carry();
     train.unload();
 
     train.set_delivery(Box::new(Normal{}));
-    train.download();
+    train.load();
     train.carry();
     train.unload();
 }

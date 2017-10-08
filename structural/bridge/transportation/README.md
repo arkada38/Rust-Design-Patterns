@@ -59,8 +59,8 @@ impl Plane {
 }
 
 impl Transport for Plane {
-    fn download(&self) {
-        println!("Downloading on the plane... Done!");
+    fn load(&self) {
+        println!("Loading on the plane... Done!");
     }
 
     fn set_delivery(&mut self, delivery: Box<Delivery>) {
@@ -88,8 +88,8 @@ impl Train {
 }
 
 impl Transport for Train{
-    fn download(&self) {
-        println!("Downloading on the train... Done!");
+    fn load(&self) {
+        println!("Loading on the train... Done!");
     }
 
     fn set_delivery(&mut self, delivery: Box<Delivery>) {
@@ -112,22 +112,22 @@ impl Transport for Train{
 ```rust
 fn main() {
     let mut plane = Plane::new(Box::new(Express{}));
-    plane.download();
+    plane.load();
     plane.carry();
     plane.unload();
 
     plane.set_delivery(Box::new(Normal{}));
-    plane.download();
+    plane.load();
     plane.carry();
     plane.unload();
 
     let mut train = Train::new(Box::new(Express{}));
-    train.download();
+    train.load();
     train.carry();
     train.unload();
 
     train.set_delivery(Box::new(Normal{}));
-    train.download();
+    train.load();
     train.carry();
     train.unload();
 }
@@ -137,25 +137,25 @@ fn main() {
 
 ```bash
 # By plane with Express delivery
-Downloading on the plane... Done!
+Loading on the plane... Done!
 Super fast delivery for 3 days
 The plane flew off... Done!
 Unloading the plane... Done!
 
 # By plane with normal delivery
-Downloading on the plane... Done!
+Loading on the plane... Done!
 Normal delivery for two weeks
 The plane flew off... Done!
 Unloading the plane... Done!
 
 # By trane with Express delivery
-Downloading on the train... Done!
+Loading on the train... Done!
 Super fast delivery for 3 days
 The train left... Done!
 Unloading the train... Done!
 
 # By trane with normal delivery
-Downloading on the train... Done!
+Loading on the train... Done!
 Normal delivery for two weeks
 The train left... Done!
 Unloading the train... Done!
