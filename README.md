@@ -12,7 +12,7 @@ Template name                                               |    Type    |      
 :-----------------------------------------------------------|:----------:|--------------:|
 [Abstract Factory](creational/abstract%20factory)           | Creational |    *Finished* |
 [Adapter](structural/adapter)                               | Structural |    *Finished* |
-Bridge                                                      | Structural | *Not started* |
+[Bridge](structural/bridge)                                 | Structural |    *Finished* |
 [Builder](creational/builder)                               | Creational |    *Finished* |
 Chain of Responsibility                                     | Behavioral | *Not started* |
 Command                                                     | Behavioral | *Not started* |
