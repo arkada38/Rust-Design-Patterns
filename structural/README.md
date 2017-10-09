@@ -6,6 +6,6 @@ Responsible for building simple and efficient class hierarchies and relations be
 1. [Bridge](bridge)
 1. [Composite](composite)
 1. [Decorator](decorator)
-1. Facade
+1. [Facade](facade)
 1. Flyweight
 1. Proxy

@@ -18,7 +18,7 @@ Chain of Responsibility                                     | Behavioral | *Not 
 Command                                                     | Behavioral | *Not started* |
 [Composite](structural/composite)                           | Structural |    *Finished* |
 [Decorator](structural/decorator)                           | Structural |    *Finished* |
-Facade                                                      | Structural | *Not started* |
+[Facade](structural/facade)                                 | Structural |    *Finished* |
 [Factory Method](creational/factory%20method)               | Creational |    *Finished* |
 Flyweight                                                   | Structural | *Not started* |
 Interpreter                                                 | Behavioral | *Not started* |
