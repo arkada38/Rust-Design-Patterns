@@ -20,7 +20,7 @@ Command                                                     | Behavioral | *Not 
 [Decorator](structural/decorator)                           | Structural |    *Finished* |
 [Facade](structural/facade)                                 | Structural |    *Finished* |
 [Factory Method](creational/factory%20method)               | Creational |    *Finished* |
-Flyweight                                                   | Structural | *Not started* |
+[Flyweight](structural/flyweight)                           | Structural |    *Finished* |
 Interpreter                                                 | Behavioral | *Not started* |
 Iterator                                                    | Behavioral | *Not started* |
 Mediator                                                    | Behavioral | *Not started* |
