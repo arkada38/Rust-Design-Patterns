@@ -26,7 +26,7 @@ Iterator                                                    | Behavioral | *Not 
 Mediator                                                    | Behavioral | *Not started* |
 Memento                                                     | Behavioral | *Not started* |
 [Prototype](creational/prototype)                           | Creational |    *Finished* |
-Proxy                                                       | Structural | *Not started* |
+[Proxy](structural/proxy)                                   | Structural |    *Finished* |
 Observer                                                    | Behavioral | *Not started* |
 [Singleton](creational/singleton)                           | Creational |    *Finished* |
 State                                                       | Behavioral | *Not started* |
