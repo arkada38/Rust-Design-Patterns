@@ -2,7 +2,7 @@
 
 ## Types of Patterns
 
-1. Behavioral
+1. [Behavioral](behavioral)
 1. [Creational](creational)
 1. [Structural](structural)
 
