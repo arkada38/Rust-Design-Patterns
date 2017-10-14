@@ -8,31 +8,31 @@
 
 ## Template List
 
-Template name                                               |    Type    |        Status |
-:-----------------------------------------------------------|:----------:|--------------:|
-[Abstract Factory](creational/abstract%20factory)           | Creational |    *Finished* |
-[Adapter](structural/adapter)                               | Structural |    *Finished* |
-[Bridge](structural/bridge)                                 | Structural |    *Finished* |
-[Builder](creational/builder)                               | Creational |    *Finished* |
-Chain of Responsibility                                     | Behavioral | *Not started* |
-Command                                                     | Behavioral | *Not started* |
-[Composite](structural/composite)                           | Structural |    *Finished* |
-[Decorator](structural/decorator)                           | Structural |    *Finished* |
-[Facade](structural/facade)                                 | Structural |    *Finished* |
-[Factory Method](creational/factory%20method)               | Creational |    *Finished* |
-[Flyweight](structural/flyweight)                           | Structural |    *Finished* |
-Interpreter                                                 | Behavioral | *Not started* |
-Iterator                                                    | Behavioral | *Not started* |
-Mediator                                                    | Behavioral | *Not started* |
-Memento                                                     | Behavioral | *Not started* |
-[Prototype](creational/prototype)                           | Creational |    *Finished* |
-[Proxy](structural/proxy)                                   | Structural |    *Finished* |
-Observer                                                    | Behavioral | *Not started* |
-[Singleton](creational/singleton)                           | Creational |    *Finished* |
-State                                                       | Behavioral | *Not started* |
-Strategy                                                    | Behavioral | *Not started* |
-Template Method                                             | Behavioral | *Not started* |
-Visitor                                                     | Behavioral | *Not started* |
+Template name                                                     |    Type    |        Status |
+:-----------------------------------------------------------------|:----------:|--------------:|
+[Abstract Factory](creational/abstract%20factory)                 | Creational |    *Finished* |
+[Adapter](structural/adapter)                                     | Structural |    *Finished* |
+[Bridge](structural/bridge)                                       | Structural |    *Finished* |
+[Builder](creational/builder)                                     | Creational |    *Finished* |
+[Chain of Responsibility](behavioral/chain%20of%20responsibility) | Behavioral |    *Finished* |
+Command                                                           | Behavioral | *Not started* |
+[Composite](structural/composite)                                 | Structural |    *Finished* |
+[Decorator](structural/decorator)                                 | Structural |    *Finished* |
+[Facade](structural/facade)                                       | Structural |    *Finished* |
+[Factory Method](creational/factory%20method)                     | Creational |    *Finished* |
+[Flyweight](structural/flyweight)                                 | Structural |    *Finished* |
+Interpreter                                                       | Behavioral | *Not started* |
+Iterator                                                          | Behavioral | *Not started* |
+Mediator                                                          | Behavioral | *Not started* |
+Memento                                                           | Behavioral | *Not started* |
+[Prototype](creational/prototype)                                 | Creational |    *Finished* |
+[Proxy](structural/proxy)                                         | Structural |    *Finished* |
+Observer                                                          | Behavioral | *Not started* |
+[Singleton](creational/singleton)                                 | Creational |    *Finished* |
+State                                                             | Behavioral | *Not started* |
+Strategy                                                          | Behavioral | *Not started* |
+Template Method                                                   | Behavioral | *Not started* |
+Visitor                                                           | Behavioral | *Not started* |
 
 ## Creating a new project
 
