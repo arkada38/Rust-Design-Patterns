@@ -2,9 +2,9 @@
 
 ## Types of Patterns
 
-1. [Behavioral](behavioral)
-1. [Creational](creational)
-1. [Structural](structural)
+1. [Behavioral](behavioral) ([Wiki](https://en.wikipedia.org/wiki/Behavioral_pattern) [Refactoring.Guru](https://refactoring.guru/design-patterns/behavioral-patterns))
+1. [Creational](creational) ([Wiki](https://en.wikipedia.org/wiki/Creational_pattern) [Refactoring.Guru](https://refactoring.guru/design-patterns/creational-patterns))
+1. [Structural](structural) ([Wiki](https://en.wikipedia.org/wiki/Structural_pattern) [Refactoring.Guru](https://refactoring.guru/design-patterns/structural-patterns))
 
 ## Template List
 
