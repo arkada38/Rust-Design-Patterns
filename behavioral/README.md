@@ -3,7 +3,7 @@
 Behavioral patterns are responsible for the efficient and safe distribution of behaviors among the program's objects.
 
 1. [Chain of Responsibility](chain%20of%20responsibility)
-1. Command
+1. [Command](command)
 1. Interpreter
 1. Iterator
 1. Mediator
