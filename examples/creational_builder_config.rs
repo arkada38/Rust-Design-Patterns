@@ -1,5 +1,6 @@
 use design_patterns::creational::builder::config::ConfigBuilder;
 
+/// Example with *Builder* pattern
 fn main() {
     let config = ConfigBuilder::new()
         .with_width(150)

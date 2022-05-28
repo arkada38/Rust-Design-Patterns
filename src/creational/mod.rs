@@ -19,3 +19,14 @@
 /// 1. `coffee` + `sugar`
 /// 1. `coffee` + `sugar` + `sugar` + `milk`
 pub mod builder;
+
+/// # Singleton
+///
+/// ## Type
+///
+/// Creational
+///
+/// ## Description
+///
+/// Ensure a struct only has one instance and provide a global point of access to it.
+pub mod singleton;
