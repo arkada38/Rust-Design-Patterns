@@ -1,3 +1,13 @@
+//! # Singleton
+//!
+//! ## Type
+//!
+//! Creational
+//!
+//! ## Description
+//!
+//! Ensure a struct only has one instance and provide a global point of access to it.
+
 use std::mem;
 use std::sync::{Arc, Mutex, Once};
 
