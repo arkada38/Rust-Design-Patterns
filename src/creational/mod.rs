@@ -30,3 +30,14 @@ pub mod builder;
 ///
 /// Ensure a struct only has one instance and provide a global point of access to it.
 pub mod singleton;
+
+/// # Prototype
+///
+/// ## Type
+///
+/// Creational
+///
+/// ## Description
+///
+/// Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype.
+pub mod prototype;
