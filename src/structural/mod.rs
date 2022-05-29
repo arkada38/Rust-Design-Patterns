@@ -11,3 +11,4 @@
 //! 1. [Proxy](proxy)
 
 pub mod adapter;
+pub mod bridge;
