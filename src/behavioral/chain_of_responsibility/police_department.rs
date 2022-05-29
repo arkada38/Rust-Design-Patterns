@@ -6,13 +6,15 @@ pub trait Policeman {
 pub struct Detective {
     deduction: u8,
     next: Option<Box<dyn Policeman>>,
+    name: String,
 }
 
 impl Detective {
-    pub fn new(deduction: u8) -> Detective {
+    pub fn new<S: Into<String>>(deduction: u8, name: S) -> Detective {
         Detective {
             deduction,
             next: None,
+            name: name.into(),
         }
     }
 }
@@ -24,14 +26,17 @@ impl Policeman for Detective {
 
     fn investigate(&self, crime: u8) {
         if crime > self.deduction {
-            println!("Detective: I can't investigate it. I need help.");
+            println!(
+                "Detective {}: I can't investigate it. I need help.",
+                self.name
+            );
 
             match &self.next {
                 &Some(ref next) => next.investigate(crime),
-                &None => println!("Detective: Unimpossible for our department"),
+                &None => println!("Detective {}: Unimpossible for our department", self.name),
             }
         } else {
-            println!("Detective: I can do this.");
+            println!("Detective {}: I can do this.", self.name);
         }
     }
 }
@@ -39,13 +44,15 @@ impl Policeman for Detective {
 pub struct Patrolman {
     deduction: u8,
     next: Option<Box<dyn Policeman>>,
+    name: String,
 }
 
 impl Patrolman {
-    pub fn new(deduction: u8) -> Patrolman {
+    pub fn new<S: Into<String>>(deduction: u8, name: S) -> Patrolman {
         Patrolman {
             deduction,
             next: None,
+            name: name.into(),
         }
     }
 }
@@ -57,14 +64,17 @@ impl Policeman for Patrolman {
 
     fn investigate(&self, crime: u8) {
         if crime > self.deduction {
-            println!("Patrolman: I'm just a patrolman. I need help.");
+            println!(
+                "Patrolman {}: I'm just a patrolman. I need help.",
+                self.name
+            );
 
             match &self.next {
                 &Some(ref next) => next.investigate(crime),
-                &None => println!("Patrolman: Unimpossible for our department."),
+                &None => println!("Patrolman {}: Unimpossible for our department.", self.name),
             }
         } else {
-            println!("Patrolman: It's easy. I can do this.");
+            println!("Patrolman {}: It's easy. I can do this.", self.name);
         }
     }
 }

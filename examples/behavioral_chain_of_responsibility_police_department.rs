@@ -10,17 +10,17 @@ use design_patterns::behavioral::chain_of_responsibility::police_department::{
 // The officer passes the crime's case if the crime's difficulty lvl bigger
 // than the officer's deduction.
 fn main() {
-    let chuck = Detective::new(8);
+    let chuck = Detective::new(8, "Chuck");
 
-    let mut tom = Detective::new(5);
+    let mut tom = Detective::new(5, "Tom");
     tom.set_next(Box::new(chuck));
 
-    let mut jack = Patrolman::new(3);
+    let mut jack = Patrolman::new(2, "Jack");
     jack.set_next(Box::new(tom));
 
-    for crime_lvl in [3, 4, 6, 9].iter() {
+    for crime_lvl in (1..=10u8).step_by(3) {
         println!("Investigation of a new crime (lvl: {crime_lvl})");
-        jack.investigate(u8::try_from(*crime_lvl).expect("Expecting u8"));
+        jack.investigate(crime_lvl);
         println!();
     }
 }
