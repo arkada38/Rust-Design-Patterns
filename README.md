@@ -9,7 +9,7 @@
 ## Template List
 
 Template name           |    Type    | Status | Links                                                                 |
-:-----------------------|:----------:|-------:|:----------------------------------------------------------------------|
+:-----------------------|:----------:|:------:|:----------------------------------------------------------------------|
 Abstract Factory        | Creational |   ✅   | [Wiki](https://en.wikipedia.org/wiki/Abstract_factory_pattern)        |
 Adapter                 | Structural |   ✅   | [Wiki](https://en.wikipedia.org/wiki/Adapter_pattern)                 |
 Bridge                  | Structural |   ✅   | [Wiki](https://en.wikipedia.org/wiki/Bridge_pattern)                  |

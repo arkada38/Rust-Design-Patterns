@@ -41,3 +41,9 @@ impl Parking {
         self.car_factory.print();
     }
 }
+
+impl Default for Parking {
+    fn default() -> Self {
+        Self::new()
+    }
+}

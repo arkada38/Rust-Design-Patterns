@@ -31,9 +31,9 @@ impl Policeman for Detective {
                 self.name
             );
 
-            match &self.next {
-                &Some(ref next) => next.investigate(crime),
-                &None => println!("Detective {}: Unimpossible for our department", self.name),
+            match self.next {
+                Some(ref next) => next.investigate(crime),
+                None => println!("Detective {}: Unimpossible for our department", self.name),
             }
         } else {
             println!("Detective {}: I can do this.", self.name);
@@ -69,9 +69,9 @@ impl Policeman for Patrolman {
                 self.name
             );
 
-            match &self.next {
-                &Some(ref next) => next.investigate(crime),
-                &None => println!("Patrolman {}: Unimpossible for our department.", self.name),
+            match self.next {
+                Some(ref next) => next.investigate(crime),
+                None => println!("Patrolman {}: Unimpossible for our department.", self.name),
             }
         } else {
             println!("Patrolman {}: It's easy. I can do this.", self.name);

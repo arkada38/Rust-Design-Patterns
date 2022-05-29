@@ -22,3 +22,9 @@ impl Garage {
         }
     }
 }
+
+impl Default for Garage {
+    fn default() -> Self {
+        Self::new()
+    }
+}

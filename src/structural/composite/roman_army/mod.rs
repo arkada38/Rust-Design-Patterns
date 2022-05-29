@@ -4,7 +4,7 @@ pub trait ComponentUnit {
     fn get_strength(&self) -> i32;
     fn add_unit(&mut self, unit: Box<dyn ComponentUnit>);
     fn get_units(&self) -> &Vec<Box<dyn ComponentUnit>>;
-    fn get_unit(&self, index: usize) -> &Box<dyn ComponentUnit>;
+    fn get_unit(&self, index: usize) -> &dyn ComponentUnit;
     fn remove(&mut self, index: usize);
 }
 
@@ -15,6 +15,12 @@ pub struct CompositeUnit {
 impl CompositeUnit {
     pub fn new() -> CompositeUnit {
         CompositeUnit { units: Vec::new() }
+    }
+}
+
+impl Default for CompositeUnit {
+    fn default() -> Self {
+        Self::new()
     }
 }
 
@@ -37,8 +43,8 @@ impl ComponentUnit for CompositeUnit {
         &self.units
     }
 
-    fn get_unit(&self, index: usize) -> &Box<dyn ComponentUnit> {
-        &self.units[index]
+    fn get_unit(&self, index: usize) -> &dyn ComponentUnit {
+        &*self.units[index]
     }
 
     fn remove(&mut self, index: usize) {

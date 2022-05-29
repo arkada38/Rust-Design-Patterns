@@ -17,7 +17,7 @@ impl ComponentUnit for Archer {
         unimplemented!()
     }
 
-    fn get_unit(&self, _: usize) -> &Box<dyn ComponentUnit> {
+    fn get_unit(&self, _: usize) -> &dyn ComponentUnit {
         unimplemented!()
     }
 
@@ -39,7 +39,7 @@ impl ComponentUnit for Infantryman {
         unimplemented!()
     }
 
-    fn get_unit(&self, _: usize) -> &Box<dyn ComponentUnit> {
+    fn get_unit(&self, _: usize) -> &dyn ComponentUnit {
         unimplemented!()
     }
 
@@ -61,7 +61,7 @@ impl ComponentUnit for Horseman {
         unimplemented!()
     }
 
-    fn get_unit(&self, _: usize) -> &Box<dyn ComponentUnit> {
+    fn get_unit(&self, _: usize) -> &dyn ComponentUnit {
         unimplemented!()
     }
 

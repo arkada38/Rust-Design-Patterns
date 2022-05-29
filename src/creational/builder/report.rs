@@ -36,6 +36,12 @@ impl HtmlReportBuilder {
     }
 }
 
+impl Default for HtmlReportBuilder {
+    fn default() -> Self {
+        Self::new()
+    }
+}
+
 impl ReportBuilder<HtmlReportBuilder> for HtmlReportBuilder {
     fn with_header<S: Into<String> + Display>(mut self, header: S) -> HtmlReportBuilder {
         self.content.push_str(&format!("<h1>{}</h1>\n", header));
@@ -69,6 +75,12 @@ impl MarkdownReportBuilder {
             content: "".to_string(),
             items: 0,
         }
+    }
+}
+
+impl Default for MarkdownReportBuilder {
+    fn default() -> Self {
+        Self::new()
     }
 }
 

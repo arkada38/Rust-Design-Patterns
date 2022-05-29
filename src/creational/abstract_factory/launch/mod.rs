@@ -50,6 +50,12 @@ impl CheapLaunch {
     }
 }
 
+impl Default for CheapLaunch {
+    fn default() -> Self {
+        Self::new()
+    }
+}
+
 impl Launch<CheapCourse, CheapDrink> for CheapLaunch {
     fn get_main_course(&self) -> CheapCourse {
         self.main_course
@@ -71,6 +77,12 @@ impl BusinessLaunch {
             main_course: BusinessCourse::new(1_500),
             drink: BusinessDrink::new(250),
         }
+    }
+}
+
+impl Default for BusinessLaunch {
+    fn default() -> Self {
+        Self::new()
     }
 }
 

@@ -16,7 +16,7 @@ impl PlainPizza<'_> {
 
 impl Pizza for PlainPizza<'_> {
     fn get_description(&self) -> String {
-        self.description.to_string().clone()
+        self.description.to_string()
     }
 
     fn get_cost(&self) -> f32 {

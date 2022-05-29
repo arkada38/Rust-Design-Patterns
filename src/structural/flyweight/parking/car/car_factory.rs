@@ -15,7 +15,7 @@ impl CarFactory {
         let position = self
             .car_types
             .iter()
-            .position(|ref r| r.body == body && r.colour == colour);
+            .position(|r| r.body == body && r.colour == colour);
 
         match position {
             Some(x) => x as u8,
@@ -33,5 +33,11 @@ impl CarFactory {
 
     pub fn print(&self) {
         println!("Number of car types: {}", self.car_types.len());
+    }
+}
+
+impl Default for CarFactory {
+    fn default() -> Self {
+        Self::new()
     }
 }

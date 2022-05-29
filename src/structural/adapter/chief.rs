@@ -16,6 +16,12 @@ impl ChiefAdapter {
     }
 }
 
+impl Default for ChiefAdapter {
+    fn default() -> Self {
+        Self::new()
+    }
+}
+
 impl Chief for ChiefAdapter {
     fn get_cost(&self) -> u32 {
         self.confectioner.get_cost_for_dinner()
@@ -47,5 +53,11 @@ impl Confectioner {
 
     pub fn take_money_for_dinner(&self, money: u32) {
         println!("Thanks for ${}", money);
+    }
+}
+
+impl Default for Confectioner {
+    fn default() -> Self {
+        Self::new()
     }
 }

@@ -49,3 +49,9 @@ impl BlackSabbath {
         self.guitarist.play_final_accord();
     }
 }
+
+impl Default for BlackSabbath {
+    fn default() -> Self {
+        Self::new()
+    }
+}

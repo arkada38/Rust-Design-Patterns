@@ -15,6 +15,12 @@ impl HtmlReport {
     }
 }
 
+impl Default for HtmlReport {
+    fn default() -> Self {
+        Self::new()
+    }
+}
+
 impl Report for HtmlReport {
     fn set_header<S: Into<String>>(&mut self, header: S) {
         self.header = header.into();
