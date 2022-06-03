@@ -36,7 +36,7 @@ Visitor                 | Behavioral |   ⏳   | [Wiki](https://en.wikipedia.org
 
 ## Useful links
 
+* [Rust Design Patterns](https://rust-unofficial.github.io/patterns/intro.html)
 * [Design Patterns on Wiki](https://en.wikipedia.org/wiki/Design_Patterns)
 * [Design patterns card](http://www.mcdonaldland.info/files/designpatterns/designpatternscard.pdf)
 * [Шпаргалка по шаблонам проектирования](https://habrahabr.ru/post/210288/)
-* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
