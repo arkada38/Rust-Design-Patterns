@@ -21,7 +21,7 @@ Decorator               | Structural |   ✅   | [Wiki](https://en.wikipedia.org
 Facade                  | Structural |   ✅   | [Wiki](https://en.wikipedia.org/wiki/Facade_pattern)                  |
 Factory Method          | Creational |   ✅   | [Wiki](https://en.wikipedia.org/wiki/Factory_method_pattern)          |
 Flyweight               | Structural |   ✅   | [Wiki](https://en.wikipedia.org/wiki/Flyweight_pattern)               |
-Interpreter             | Behavioral |   ⏳   | [Wiki](https://en.wikipedia.org/wiki/Interpreter_pattern)             |
+Interpreter             | Behavioral |   ✅   | [Wiki](https://en.wikipedia.org/wiki/Interpreter_pattern)             |
 Iterator                | Behavioral |   ⏳   | [Wiki](https://en.wikipedia.org/wiki/Iterator_pattern)                |
 Mediator                | Behavioral |   ⏳   | [Wiki](https://en.wikipedia.org/wiki/Mediator_pattern)                |
 Memento                 | Behavioral |   ⏳   | [Wiki](https://en.wikipedia.org/wiki/Memento_pattern)                 |

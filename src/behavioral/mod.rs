@@ -4,7 +4,7 @@
 //!
 //! 1. [Chain of Responsibility](chain_of_responsibility)
 //! 1. [Command](command)
-//! 1. Interpreter
+//! 1. [Interpreter](interpreter)
 //! 1. Iterator
 //! 1. Mediator
 //! 1. Memento
@@ -16,3 +16,4 @@
 
 pub mod chain_of_responsibility;
 pub mod command;
+pub mod interpreter;
